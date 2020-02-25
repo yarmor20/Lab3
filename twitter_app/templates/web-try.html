@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+      <meta charset="utf-8">
+      <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+      <script src="https://kit.fontawesome.com/4ca9a98a81.js" crossorigin="anonymous"></script>
+</head>
+
+
+<title>Twitter Locator</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+
+
+<style>
+body,h1 {font-family: "Raleway", sans-serif}
+body, html {height: 100%}
+.bgimg {
+  background-image: url('https://images.unsplash.com/photo-1554110397-9bac083977c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80');
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+</style>
+
+
+<body>
+  <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
+  <div class="w3-display-middle">
+      <h1 class="w3-jumbo w3-animate-top">TWITTER LOCATOR</h1>
+      <hr class="w3-border-grey" style="margin:auto;width:40%">
+  </div>
+
+  <div class="w3-display-bottomleft w3-padding-large">
+      @2020 Created by Yaroslav Morozevych
+  </div>
+<form action="/register" method="post" >
+  <div class="search-box">
+        <input type="text" name="username" class="search-txt" placeholder="Type a @username..." id="search-txt" type="submit" tabindex="-1" />
+        <a class="search-btn" href="#">
+          <i class="fas fa-search"></i>
+
+        </a>
+  </div>
+</form>
+</div>
+</body>
+</html>
