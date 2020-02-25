@@ -1,4 +1,4 @@
-## Describtion
+# Describtion
 The Twitter App is designed to get the location of user's friends on Twitter.
 # How it works:
     1. A user types his/her Twitter @username and presses Enter.
