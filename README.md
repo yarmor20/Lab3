@@ -1,15 +1,15 @@
-##Describtion
+#Describtion
 The Twitter App is designed to get the location of user's friends on Twitter.
-##How it works:
+#How it works:
     1. A user types his/her Twitter @username and presses Enter.
     2. The Web app redirects a user to the map where the friends' locations are shown with markers.
     3. When the user presses the marker it shows his/her friend's screen name.
-##Requirements
+#Requirements
     pip install folium
     pip install geopy
     pip install requests
     pip install flask
-##An example of running the program:
+#An example of running the program:
 * Serving Flask app "flask_server" (lazy loading)
  * Environment: production
    WARNING: This is a development server. Do not use it in a production deployment.
